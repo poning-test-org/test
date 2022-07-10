@@ -21,4 +21,4 @@ def system2():
 
 @app.route("/system3")
 def system3():
-    return os.system(request.args["x"])
+    return os.system(request.args["os"])
