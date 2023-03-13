@@ -1,3 +1,5 @@
 from os import system
+from random import random
 
-system(input())
+if random() < 0.5:
+    system(input())
